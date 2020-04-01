@@ -963,6 +963,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 4fb8907ee8e151e49a3a864a6b79cdcd, type: 3}
   - {fileID: 21300000, guid: e36c3d45db7573148bb72e77f44b1316, type: 3}
   - {fileID: 21300000, guid: 61454df6a1a1fd5469b5f6437f79be95, type: 3}
+  i: 0
+  size: 0
+  nextActionTime: 0
   period: 0.5
 --- !u!61 &123703099
 BoxCollider2D:
@@ -1191,6 +1194,7 @@ GameObject:
   - component: {fileID: 182379934}
   - component: {fileID: 182379936}
   - component: {fileID: 182379935}
+  - component: {fileID: 182379937}
   m_Layer: 0
   m_Name: diamond
   m_TagString: Untagged
@@ -1288,6 +1292,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &182379937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182379933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55c1ce754aea384e9a0d73ec6611937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 100
+  scoreboard: {fileID: 0}
 --- !u!1 &203842615
 GameObject:
   m_ObjectHideFlags: 0
@@ -3065,6 +3083,7 @@ GameObject:
   - component: {fileID: 560598464}
   - component: {fileID: 560598466}
   - component: {fileID: 560598465}
+  - component: {fileID: 560598467}
   m_Layer: 0
   m_Name: diamond (1)
   m_TagString: Untagged
@@ -3162,6 +3181,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &560598467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560598463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55c1ce754aea384e9a0d73ec6611937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 100
+  scoreboard: {fileID: 0}
 --- !u!1 &568186708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3686,6 +3719,7 @@ GameObject:
   - component: {fileID: 623607983}
   - component: {fileID: 623607985}
   - component: {fileID: 623607984}
+  - component: {fileID: 623607986}
   m_Layer: 0
   m_Name: diamond (7)
   m_TagString: Untagged
@@ -3783,6 +3817,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &623607986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623607982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55c1ce754aea384e9a0d73ec6611937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 100
+  scoreboard: {fileID: 0}
 --- !u!1 &670420745
 GameObject:
   m_ObjectHideFlags: 0
@@ -4102,6 +4150,7 @@ GameObject:
   - component: {fileID: 781811136}
   - component: {fileID: 781811138}
   - component: {fileID: 781811137}
+  - component: {fileID: 781811139}
   m_Layer: 0
   m_Name: diamond (2)
   m_TagString: Untagged
@@ -4199,6 +4248,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &781811139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781811135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55c1ce754aea384e9a0d73ec6611937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 100
+  scoreboard: {fileID: 0}
 --- !u!1 &795165518
 GameObject:
   m_ObjectHideFlags: 0
@@ -4210,6 +4273,7 @@ GameObject:
   - component: {fileID: 795165519}
   - component: {fileID: 795165521}
   - component: {fileID: 795165520}
+  - component: {fileID: 795165522}
   m_Layer: 0
   m_Name: diamond (6)
   m_TagString: Untagged
@@ -4307,6 +4371,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &795165522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795165518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55c1ce754aea384e9a0d73ec6611937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 100
+  scoreboard: {fileID: 0}
 --- !u!1 &796465670
 GameObject:
   m_ObjectHideFlags: 0
@@ -4318,6 +4396,7 @@ GameObject:
   - component: {fileID: 796465671}
   - component: {fileID: 796465673}
   - component: {fileID: 796465672}
+  - component: {fileID: 796465674}
   m_Layer: 0
   m_Name: diamond (9)
   m_TagString: Untagged
@@ -4415,6 +4494,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &796465674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796465670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55c1ce754aea384e9a0d73ec6611937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 100
+  scoreboard: {fileID: 0}
 --- !u!1 &809334985
 GameObject:
   m_ObjectHideFlags: 0
@@ -4858,6 +4951,7 @@ GameObject:
   - component: {fileID: 897169350}
   - component: {fileID: 897169352}
   - component: {fileID: 897169351}
+  - component: {fileID: 897169353}
   m_Layer: 0
   m_Name: diamond (8)
   m_TagString: Untagged
@@ -4955,6 +5049,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &897169353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897169349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55c1ce754aea384e9a0d73ec6611937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 100
+  scoreboard: {fileID: 0}
 --- !u!1 &912891360
 GameObject:
   m_ObjectHideFlags: 0
@@ -5589,6 +5697,7 @@ GameObject:
   - component: {fileID: 1021563120}
   - component: {fileID: 1021563122}
   - component: {fileID: 1021563121}
+  - component: {fileID: 1021563123}
   m_Layer: 0
   m_Name: diamond (5)
   m_TagString: Untagged
@@ -5686,6 +5795,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1021563123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021563119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55c1ce754aea384e9a0d73ec6611937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 100
+  scoreboard: {fileID: 0}
 --- !u!1 &1023237155
 GameObject:
   m_ObjectHideFlags: 0
@@ -5805,6 +5928,7 @@ GameObject:
   - component: {fileID: 1045147887}
   - component: {fileID: 1045147889}
   - component: {fileID: 1045147888}
+  - component: {fileID: 1045147890}
   m_Layer: 0
   m_Name: diamond (4)
   m_TagString: Untagged
@@ -5902,6 +6026,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1045147890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045147886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55c1ce754aea384e9a0d73ec6611937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 100
+  scoreboard: {fileID: 0}
 --- !u!1 &1067096596
 GameObject:
   m_ObjectHideFlags: 0
@@ -10198,7 +10336,7 @@ GameObject:
   - component: {fileID: 1827889955}
   - component: {fileID: 1827889954}
   m_Layer: 0
-  m_Name: dave2
+  m_Name: dave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11034,6 +11172,7 @@ GameObject:
   - component: {fileID: 2037177021}
   - component: {fileID: 2037177023}
   - component: {fileID: 2037177022}
+  - component: {fileID: 2037177024}
   m_Layer: 0
   m_Name: diamond (3)
   m_TagString: Untagged
@@ -11131,6 +11270,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2037177024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037177020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55c1ce754aea384e9a0d73ec6611937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 100
+  scoreboard: {fileID: 0}
 --- !u!1 &2039211414
 GameObject:
   m_ObjectHideFlags: 0

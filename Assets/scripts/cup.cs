@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cup : MonoBehaviour
+public class Cup : MonoBehaviour
 {
     public Sprite[] sprites;
     private int i;
