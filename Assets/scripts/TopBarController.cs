@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class TopBarController : MonoBehaviour
 {
     private Sprite[] DIGITS = new Sprite[10];
-    private Image[] Score = new Image[5], Level = new Image[2], Lives = new Image[3];  
+    private SpriteRenderer[] Score = new SpriteRenderer[5], Level = new SpriteRenderer[2], Lives = new SpriteRenderer[3];  
     // Start is called before the first frame update
     void Start()
     {
@@ -21,11 +21,10 @@ public class TopBarController : MonoBehaviour
         #endregion
 
         #region Initialize Score
-
+ 
         for (int i = 0; i < 5; i++)
         {
-            var gameObject = GameObject.Find("Score_Digit_" + i);
-            Score[i] = gameObject.GetComponent<Image>();
+            Score[i] = GameObject.Find("score_digit" + i).GetComponent<SpriteRenderer>();
         }
 
         #endregion
@@ -34,7 +33,7 @@ public class TopBarController : MonoBehaviour
 
         for (int i = 0; i < 2; i++)
         {
-            Level[i] = GameObject.Find("Level_Digit_" + i).GetComponent<Image>();
+            Level[i] = GameObject.Find("level_digit" + i).GetComponent<SpriteRenderer>();
         }
 
         #endregion
@@ -43,11 +42,15 @@ public class TopBarController : MonoBehaviour
 
         for (int i = 0; i < 3; i++)
         {
-            var gameObject = GameObject.Find("Daves_Life_" + i);
-            Lives[i] = gameObject.GetComponent<Image>();
+            var gameObject = GameObject.Find("daves_life" + i);
+            Lives[i] = gameObject.GetComponent<SpriteRenderer>();
         }
 
         #endregion
+
+        setLevel(2);
+        setScore(2010);
+        setRemainingLives(2);
     }
 
     public void setScore(int score)
