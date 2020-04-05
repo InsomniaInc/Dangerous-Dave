@@ -6,7 +6,7 @@ public class Diamond : MonoBehaviour
 {
     // Start is called before the first frame update
     public int score=100;
-    public ScoreBoard scoreboard;
+    public TopBarController topBarController;
     void Start()
     {
     }
@@ -15,7 +15,8 @@ public class Diamond : MonoBehaviour
         if (collision.gameObject.name.Equals("dave"))
         {
             Debug.Log("Enteres" + this.gameObject.name);
-            scoreboard.updateScore(score);
+            //scoreboard.updateScore(score);
+            topBarController.addToScore(100);
             Destroy(this.gameObject);
         }
     }

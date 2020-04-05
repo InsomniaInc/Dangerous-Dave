@@ -227,7 +227,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &25202670
 GameObject:
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 25202673}
   m_Layer: 0
   m_Name: redTile (7)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -335,7 +335,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &88488357
 GameObject:
@@ -350,7 +350,7 @@ GameObject:
   - component: {fileID: 88488360}
   m_Layer: 0
   m_Name: redTile (4)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -443,7 +443,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &89447063
 GameObject:
@@ -458,7 +458,7 @@ GameObject:
   - component: {fileID: 89447066}
   m_Layer: 0
   m_Name: redTile (22)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -551,7 +551,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &92369585
 GameObject:
@@ -659,7 +659,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &94746042
 GameObject:
@@ -848,7 +848,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &117319557
 GameObject:
@@ -992,7 +992,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &123703096
 GameObject:
@@ -1005,7 +1005,6 @@ GameObject:
   - component: {fileID: 123703097}
   - component: {fileID: 123703100}
   - component: {fileID: 123703099}
-  - component: {fileID: 123703098}
   m_Layer: 0
   m_Name: cup
   m_TagString: Untagged
@@ -1027,18 +1026,6 @@ Transform:
   m_Father: {fileID: 170722253}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &123703098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 123703096}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: febce5e6cf720524f965a4550b4cc80d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &123703099
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1128,7 +1115,7 @@ GameObject:
   - component: {fileID: 131109238}
   m_Layer: 0
   m_Name: redTile (3)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1171,7 +1158,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &131109239
 SpriteRenderer:
@@ -1472,7 +1459,7 @@ GameObject:
   - component: {fileID: 203842618}
   m_Layer: 0
   m_Name: redTile (25)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1565,7 +1552,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &217523025
 GameObject:
@@ -1661,7 +1648,7 @@ GameObject:
   - component: {fileID: 220843432}
   m_Layer: 0
   m_Name: redTile (17)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1754,7 +1741,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &221168423
 GameObject:
@@ -1769,7 +1756,7 @@ GameObject:
   - component: {fileID: 221168425}
   m_Layer: 0
   m_Name: redTile (13)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1812,7 +1799,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &221168426
 SpriteRenderer:
@@ -1877,7 +1864,7 @@ GameObject:
   - component: {fileID: 232254462}
   m_Layer: 0
   m_Name: redTile (27)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1970,7 +1957,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &265423126
 GameObject:
@@ -1985,7 +1972,7 @@ GameObject:
   - component: {fileID: 265423128}
   m_Layer: 0
   m_Name: redTile (4)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2028,7 +2015,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &265423129
 SpriteRenderer:
@@ -2093,7 +2080,7 @@ GameObject:
   - component: {fileID: 267609184}
   m_Layer: 0
   m_Name: redTile (27)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2186,7 +2173,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &267868066
 GameObject:
@@ -2201,7 +2188,7 @@ GameObject:
   - component: {fileID: 267868068}
   m_Layer: 0
   m_Name: redTile (6)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2244,7 +2231,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &267868069
 SpriteRenderer:
@@ -2390,7 +2377,7 @@ GameObject:
   - component: {fileID: 388401870}
   m_Layer: 0
   m_Name: redTile (14)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2433,7 +2420,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &388401871
 SpriteRenderer:
@@ -2672,7 +2659,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &398011168
 GameObject:
@@ -2780,7 +2767,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &437678020
 GameObject:
@@ -2888,7 +2875,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &469872148
 GameObject:
@@ -2903,7 +2890,7 @@ GameObject:
   - component: {fileID: 469872151}
   m_Layer: 0
   m_Name: redTile (24)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2996,7 +2983,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &476150468
 GameObject:
@@ -3104,7 +3091,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &506389485
 GameObject:
@@ -3119,7 +3106,7 @@ GameObject:
   - component: {fileID: 506389488}
   m_Layer: 0
   m_Name: redTile (25)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3212,7 +3199,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &506853361
 GameObject:
@@ -3358,7 +3345,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &526899020
 GameObject:
@@ -3373,7 +3360,7 @@ GameObject:
   - component: {fileID: 526899023}
   m_Layer: 0
   m_Name: redTile (27)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3466,7 +3453,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &560598463
 GameObject:
@@ -3604,7 +3591,7 @@ GameObject:
   - component: {fileID: 568186711}
   m_Layer: 0
   m_Name: redTile (26)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3697,7 +3684,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &569934991
 GameObject:
@@ -3712,7 +3699,7 @@ GameObject:
   - component: {fileID: 569934994}
   m_Layer: 0
   m_Name: redTile (21)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3805,7 +3792,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &581913095
 GameObject:
@@ -3820,7 +3807,7 @@ GameObject:
   - component: {fileID: 581913097}
   m_Layer: 0
   m_Name: redTile (1)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3863,7 +3850,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &581913098
 SpriteRenderer:
@@ -3928,7 +3915,7 @@ GameObject:
   - component: {fileID: 594531968}
   m_Layer: 0
   m_Name: redTile
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4021,7 +4008,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &623607982
 GameObject:
@@ -4159,7 +4146,7 @@ GameObject:
   - component: {fileID: 670420747}
   m_Layer: 0
   m_Name: redTile (15)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4202,7 +4189,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &670420748
 SpriteRenderer:
@@ -4443,7 +4430,7 @@ GameObject:
   - component: {fileID: 737144222}
   m_Layer: 0
   m_Name: redTile (5)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4486,7 +4473,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &737144223
 SpriteRenderer:
@@ -5003,7 +4990,7 @@ GameObject:
   - component: {fileID: 809334988}
   m_Layer: 0
   m_Name: redTile (2)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5096,7 +5083,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &810558208
 GameObject:
@@ -5111,7 +5098,7 @@ GameObject:
   - component: {fileID: 810558211}
   m_Layer: 0
   m_Name: redTile (8)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5204,7 +5191,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &880691990
 GameObject:
@@ -5219,7 +5206,7 @@ GameObject:
   - component: {fileID: 880691993}
   m_Layer: 0
   m_Name: redTile (9)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5312,7 +5299,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &884882390
 GameObject:
@@ -5327,7 +5314,7 @@ GameObject:
   - component: {fileID: 884882392}
   m_Layer: 0
   m_Name: redTile (19)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5370,7 +5357,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &884882393
 SpriteRenderer:
@@ -5759,7 +5746,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &932699445
 GameObject:
@@ -5774,7 +5761,7 @@ GameObject:
   - component: {fileID: 932699448}
   m_Layer: 0
   m_Name: redTile (24)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5867,7 +5854,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &963194225
 GameObject:
@@ -6073,7 +6060,7 @@ GameObject:
   - component: {fileID: 1004075117}
   m_Layer: 0
   m_Name: redTile (13)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6166,7 +6153,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1021563119
 GameObject:
@@ -6304,7 +6291,7 @@ GameObject:
   - component: {fileID: 1023237158}
   m_Layer: 0
   m_Name: redTile (12)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6397,7 +6384,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1030567534
 GameObject:
@@ -6621,7 +6608,7 @@ GameObject:
   - component: {fileID: 1067096599}
   m_Layer: 0
   m_Name: redTile (6)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6714,7 +6701,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1110588693
 GameObject:
@@ -6729,7 +6716,7 @@ GameObject:
   - component: {fileID: 1110588696}
   m_Layer: 0
   m_Name: redTile (20)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6822,7 +6809,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1112302907
 GameObject:
@@ -6930,7 +6917,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1117943042
 GameObject:
@@ -6945,7 +6932,7 @@ GameObject:
   - component: {fileID: 1117943044}
   m_Layer: 0
   m_Name: redTile (12)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6988,7 +6975,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &1117943045
 SpriteRenderer:
@@ -7104,7 +7091,7 @@ GameObject:
   - component: {fileID: 1124857355}
   m_Layer: 0
   m_Name: redTile (8)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7147,7 +7134,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &1124857356
 SpriteRenderer:
@@ -7305,7 +7292,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1133719414
 GameObject:
@@ -7320,7 +7307,7 @@ GameObject:
   - component: {fileID: 1133719417}
   m_Layer: 0
   m_Name: redTile (20)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7413,7 +7400,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1151306242
 GameObject:
@@ -7428,7 +7415,7 @@ GameObject:
   - component: {fileID: 1151306245}
   m_Layer: 0
   m_Name: redTile (23)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7521,7 +7508,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1158173563
 GameObject:
@@ -7536,7 +7523,7 @@ GameObject:
   - component: {fileID: 1158173566}
   m_Layer: 0
   m_Name: redTile (14)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7629,7 +7616,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1167945052
 GameObject:
@@ -7737,7 +7724,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1193313620
 GameObject:
@@ -7910,7 +7897,7 @@ GameObject:
   - component: {fileID: 1235502281}
   m_Layer: 0
   m_Name: redTile (9)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7953,7 +7940,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &1235502282
 SpriteRenderer:
@@ -8018,7 +8005,7 @@ GameObject:
   - component: {fileID: 1245133716}
   m_Layer: 0
   m_Name: redTile (2)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8061,7 +8048,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &1245133717
 SpriteRenderer:
@@ -8126,7 +8113,7 @@ GameObject:
   - component: {fileID: 1263139231}
   m_Layer: 0
   m_Name: redTile (7)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8169,7 +8156,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &1263139232
 SpriteRenderer:
@@ -8234,7 +8221,7 @@ GameObject:
   - component: {fileID: 1295892483}
   m_Layer: 0
   m_Name: redTile (25)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8327,7 +8314,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1297417892
 GameObject:
@@ -8342,7 +8329,7 @@ GameObject:
   - component: {fileID: 1297417894}
   m_Layer: 0
   m_Name: redTile (16)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8385,7 +8372,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &1297417895
 SpriteRenderer:
@@ -8531,7 +8518,7 @@ GameObject:
   - component: {fileID: 1351864647}
   m_Layer: 0
   m_Name: redTile (3)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8624,7 +8611,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1354263119
 GameObject:
@@ -8639,7 +8626,7 @@ GameObject:
   - component: {fileID: 1354263122}
   m_Layer: 0
   m_Name: redTile (23)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8732,7 +8719,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1359816896
 GameObject:
@@ -8747,7 +8734,7 @@ GameObject:
   - component: {fileID: 1359816899}
   m_Layer: 0
   m_Name: redTile (21)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8840,7 +8827,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1373412199
 GameObject:
@@ -8855,7 +8842,7 @@ GameObject:
   - component: {fileID: 1373412201}
   m_Layer: 0
   m_Name: redTile
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8898,7 +8885,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &1373412202
 SpriteRenderer:
@@ -9013,7 +9000,7 @@ GameObject:
   - component: {fileID: 1386737208}
   m_Layer: 0
   m_Name: redTile (11)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9106,7 +9093,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1412312033
 GameObject:
@@ -9121,7 +9108,7 @@ GameObject:
   - component: {fileID: 1412312036}
   m_Layer: 0
   m_Name: redTile (16)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9214,7 +9201,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1417892227
 GameObject:
@@ -9229,7 +9216,7 @@ GameObject:
   - component: {fileID: 1417892229}
   m_Layer: 0
   m_Name: redTile (10)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9272,7 +9259,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &1417892230
 SpriteRenderer:
@@ -9337,7 +9324,7 @@ GameObject:
   - component: {fileID: 1486699681}
   m_Layer: 0
   m_Name: redTile (22)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9430,7 +9417,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1512684866
 GameObject:
@@ -9445,7 +9432,7 @@ GameObject:
   - component: {fileID: 1512684869}
   m_Layer: 0
   m_Name: redTile (19)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9538,7 +9525,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1562269166
 GameObject:
@@ -9553,7 +9540,7 @@ GameObject:
   - component: {fileID: 1562269169}
   m_Layer: 0
   m_Name: redTile (26)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9646,7 +9633,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1585748651
 GameObject:
@@ -9661,7 +9648,7 @@ GameObject:
   - component: {fileID: 1585748654}
   m_Layer: 0
   m_Name: redTile (23)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9754,7 +9741,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1588936160
 GameObject:
@@ -9769,7 +9756,7 @@ GameObject:
   - component: {fileID: 1588936163}
   m_Layer: 0
   m_Name: redTile (26)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9862,7 +9849,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1600525441
 GameObject:
@@ -9877,7 +9864,7 @@ GameObject:
   - component: {fileID: 1600525444}
   m_Layer: 0
   m_Name: redTile (22)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9970,7 +9957,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1611403461
 GameObject:
@@ -10051,7 +10038,7 @@ GameObject:
   - component: {fileID: 1621352912}
   m_Layer: 0
   m_Name: redTile (15)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10144,7 +10131,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1625848593
 GameObject:
@@ -10159,7 +10146,7 @@ GameObject:
   - component: {fileID: 1625848595}
   m_Layer: 0
   m_Name: redTile (20)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10202,7 +10189,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &1625848596
 SpriteRenderer:
@@ -10360,7 +10347,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1657726902
 GameObject:
@@ -10468,7 +10455,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1697532380
 GameObject:
@@ -10614,7 +10601,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1791745688
 GameObject:
@@ -10722,7 +10709,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1799979011
 GameObject:
@@ -10737,7 +10724,7 @@ GameObject:
   - component: {fileID: 1799979014}
   m_Layer: 0
   m_Name: redTile (1)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10830,7 +10817,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1801419165
 GameObject:
@@ -10845,7 +10832,7 @@ GameObject:
   - component: {fileID: 1801419167}
   m_Layer: 0
   m_Name: redTile (11)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10888,7 +10875,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &1801419168
 SpriteRenderer:
@@ -11046,7 +11033,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1815054846
 GameObject:
@@ -11154,7 +11141,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1827889953
 GameObject:
@@ -11189,7 +11176,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.08044481, y: -0.06034693}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11200,7 +11187,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.41323185, y: 0.7126395}
   m_EdgeRadius: 0
 --- !u!212 &1827889955
 SpriteRenderer:
@@ -11278,7 +11265,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811eaf02b3d784341958f4040fa3e072, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  speed: 100
+  jumpForce: 100
 --- !u!50 &1827889958
 Rigidbody2D:
   serializedVersion: 4
@@ -11299,7 +11287,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &1841303767
 GameObject:
   m_ObjectHideFlags: 0
@@ -11394,7 +11382,7 @@ GameObject:
   - component: {fileID: 1879063409}
   m_Layer: 0
   m_Name: redTile (18)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -11487,7 +11475,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1882525344
 GameObject:
@@ -11502,7 +11490,7 @@ GameObject:
   - component: {fileID: 1882525346}
   m_Layer: 0
   m_Name: redTile (17)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -11545,7 +11533,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &1882525347
 SpriteRenderer:
@@ -11610,7 +11598,7 @@ GameObject:
   - component: {fileID: 1913481765}
   m_Layer: 0
   m_Name: redTile (18)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -11653,7 +11641,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!212 &1913481766
 SpriteRenderer:
@@ -11811,7 +11799,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1914686682
 GameObject:
@@ -11907,7 +11895,7 @@ GameObject:
   - component: {fileID: 1945652301}
   m_Layer: 0
   m_Name: redTile (21)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12000,7 +11988,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &1969782783
 GameObject:
@@ -12015,7 +12003,7 @@ GameObject:
   - component: {fileID: 1969782786}
   m_Layer: 0
   m_Name: redTile (10)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12108,7 +12096,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &2014124652
 GameObject:
@@ -12365,7 +12353,7 @@ GameObject:
   - component: {fileID: 2048004050}
   m_Layer: 0
   m_Name: redTile (24)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12458,7 +12446,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &2068526414
 GameObject:
@@ -12473,7 +12461,7 @@ GameObject:
   - component: {fileID: 2068526417}
   m_Layer: 0
   m_Name: redTile (20)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12566,7 +12554,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0
 --- !u!1 &2083678724
 GameObject:
@@ -12712,7 +12700,7 @@ GameObject:
   - component: {fileID: 2140309481}
   m_Layer: 0
   m_Name: redTile (5)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12805,5 +12793,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.8333334, y: 0.8333334}
+  m_Size: {x: 0.86, y: 0.77}
   m_EdgeRadius: 0

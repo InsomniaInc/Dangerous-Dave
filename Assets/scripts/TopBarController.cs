@@ -8,6 +8,8 @@ public class TopBarController : MonoBehaviour
 {
     private Sprite[] DIGITS = new Sprite[10];
     private SpriteRenderer[] Score = new SpriteRenderer[5], Level = new SpriteRenderer[2], Lives = new SpriteRenderer[3];  
+
+    private int scoreValue = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,12 +50,20 @@ public class TopBarController : MonoBehaviour
 
         #endregion
 
-        setLevel(2);
-        setScore(2010);
-        setRemainingLives(2);
     }
 
-    public void setScore(int score)
+    public void addToScore(int value)
+    {
+        this.scoreValue += value;
+        this.setScore(scoreValue);
+    }
+
+    public int getScore()
+    {
+        return this.scoreValue;
+    }
+
+    private void setScore(int score)
     {
         int count = 0;
         do
