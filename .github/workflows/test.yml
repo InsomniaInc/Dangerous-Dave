@@ -41,7 +41,7 @@ jobs:
         dst_path: /
         dst_owner: cpator
         dst_repo_name: Dangerous-Dave
-        dst_branch: gh=pages
+        dst_branch: gh-pages
         src_branch: dev
         username: cpator
         email: cp13@iitbbs.ac.in
