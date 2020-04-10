@@ -33,15 +33,9 @@ jobs:
         echo test, and deploy your project.
 
     # Publish to github pages
-    - name: Copycat
-      uses: andstor/copycat-action@v3
-      with:
-        personal_token: ${{ secrets.PERSONAL_TOKEN }}
-        src_path: /public/
-        dst_path: /
-        dst_owner: cpator
-        dst_repo_name: Dangerous-Dave
-        dst_branch: gh-pages
-        src_branch: dev
-        username: cpator
-        email: cp13@iitbbs.ac.in
+    - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: public # The folder the action should deploy.
