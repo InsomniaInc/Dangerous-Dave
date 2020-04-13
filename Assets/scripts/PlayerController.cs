@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -8,8 +9,12 @@ public class PlayerController : MonoBehaviour
     public int speed;
     public float jumpForce;
     public CircleCollider2D groundChecker;
+    public TopBarController topBarController;
+    public BottomBarController bottomBarController;
+
     private bool onGround = false;
     private Rigidbody2D rb2d;
+    private bool canOpenDoor = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,10 +56,37 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        
         if (groundChecker.IsTouching(collision.collider))
         {
             onGround = true;
             rb2d.velocity = Vector2.zero;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("diamond"))
+        {
+            topBarController.addToScore(100);
+            Destroy(collision.gameObject);
+        }
+        else if (collision.gameObject.CompareTag("sphere"))
+        {
+            topBarController.addToScore(500);
+            Destroy(collision.gameObject);
+        }
+        else if (collision.gameObject.CompareTag("cup"))
+        {
+            topBarController.addToScore(1000);
+            canOpenDoor = true;
+            bottomBarController.showGoThroughTheDoorMessage();
+            Destroy(collision.gameObject);
+        }
+        else if (collision.gameObject.CompareTag("door") && canOpenDoor)
+        {
+            Debug.Log("Hurray, Level Finished");
+            Destroy(this.gameObject);
         }
     }
 
