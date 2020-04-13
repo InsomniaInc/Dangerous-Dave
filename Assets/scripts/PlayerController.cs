@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public int speed = 100;
-    public float jumpForce = .1f;
-
+    public int speed;
+    public float jumpForce;
+    public CircleCollider2D groundChecker;
     private bool onGround = false;
     private Rigidbody2D rb2d;
     // Start is called before the first frame update
@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("walls"))
+        if (groundChecker.IsTouching(collision.collider))
         {
             onGround = true;
             rb2d.velocity = Vector2.zero;
@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("walls"))
+        if (!groundChecker.IsTouching(collision.collider))
             onGround = false;
     }
 }
