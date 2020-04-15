@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public CircleCollider2D groundChecker;
     public TopBarController topBarController;
     public BottomBarController bottomBarController;
+    public Animator animator;
 
     private bool onGround = false;
     private Rigidbody2D rb2d;
@@ -48,10 +49,14 @@ public class PlayerController : MonoBehaviour
         //Use the two store floats to create a new Vector2 variable movement.
         Vector2 movement = new Vector2(0,(float) Math.Ceiling(moveVertical));
         ////Call the AddForce function of our Rigidbody2D rb2d supplying movement multiplied by speed to move our player.
-        if(onGround)
+        if (onGround)
+        {
             rb2d.AddForce(movement * jumpForce);
+            animator.SetBool("isJumping", moveVertical>0.0);
+        }
         rb2d.velocity = new Vector2(moveHorizontal * speed * Time.deltaTime, rb2d.velocity.y);
- 
+        int animationSpeedValue = Math.Sign(moveHorizontal);
+        animator.SetInteger("speed", animationSpeedValue);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -60,6 +65,7 @@ public class PlayerController : MonoBehaviour
         if (groundChecker.IsTouching(collision.collider))
         {
             onGround = true;
+            animator.SetBool("isJumping", false);
             rb2d.velocity = Vector2.zero;
         }
     }
